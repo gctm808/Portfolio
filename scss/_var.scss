@@ -74,6 +74,11 @@ $text-color: #aaaaaa;
     margin: 0 0 4px;
 }
 
+//Primary color text 
+.primaryText {
+    color: $primary-color;
+}
+
 //variable for radius corners
 @mixin border-radius($radius) {
     -webkit-border-radius: $radius;

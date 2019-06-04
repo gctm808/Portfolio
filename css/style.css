@@ -39,6 +39,10 @@
   margin: 0 0 4px;
 }
 
+.primaryText {
+  color: darkseagreen;
+}
+
 .back-cover, section.testimonial-section {
   background-size: cover !important;
   -webkit-background-size: cover !important;
