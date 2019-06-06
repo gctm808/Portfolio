@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* import google fonts */
 @import url("https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900|Poppins:300,400,500,600,700");
 .reset-elem, section.single-project-section .single-content .project-content ul.detail-list, section.single-project-section .single-content .project-content ul.social-icons, .comment-area-box > ul, section.single-post .share-tag-box ul, section.clients-section .clients-box ul.client-list, section.testimonial-section .testimonial-box ul.bxslider, .sidebar .tags-widget ul.tags-list, .sidebar .popular-widget ul.popular-list, .sidebar .category-widget ul, .pagination-box ul.page-list, .blog-page-section .blog-page-box .blog-post .post-content ul.post-meta, ul.filter, section.team-section .team-box .team-box-side .team-post .hover-team .inner-team ul.social-team, header .social-box ul.social-icons, header nav.nav-menu ul.menu-list {
@@ -544,13 +545,13 @@ section.page-banner-section.portfolio-ban {
 }
 @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3/2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
   section.page-banner-section.portfolio-ban {
-    background: #111 url("../upload/banners/portfolio.jpg") center center no-repeat;
+    background: #111 url("../upload/banners/portfolio@2x.jpg") center center no-repeat;
     background-size: cover;
   }
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   section.page-banner-section.portfolio-ban {
-    background: #111 url("../upload/banners/portfolio.jpg") center center no-repeat;
+    background: #111 url("../upload/banners/portfolio@2x.jpg") center center no-repeat;
     background-size: cover;
   }
 }
@@ -597,6 +598,25 @@ section.page-banner-section.blog-ban {
     background: #111 url("../upload/banners/4@2x.jpg") center center no-repeat;
     background-size: cover;
   }
+}
+
+.c-text-btn {
+  color: white;
+}
+.c-text-btn:after {
+  position: absolute;
+  content: "►";
+  height: 20px;
+  width: 20px;
+  top: -3px;
+  right: -26px;
+  transition: all 0.2s ease;
+}
+.c-text-btn:hover, .c-text-btn:focus {
+  color: #a0cca0;
+}
+.c-text-btn:hover:after, .c-text-btn:focus:after {
+  right: -28px;
 }
 
 /*------------------------------------------------- */

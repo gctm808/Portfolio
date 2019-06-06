@@ -295,3 +295,24 @@ section.page-banner-section.blog-ban {
 }
 
 
+.c-text-btn {
+    color: white;
+    
+    &:after {
+	    position: absolute;
+		content: "\25BA";
+		height: 20px;
+		width: 20px;
+	    top: -3px;
+		right: -26px;
+		transition: all 0.2s ease;
+	}
+	
+	&:hover, &:focus {
+	    color: $primary-color; 
+	    
+	    &:after {
+		    right: -28px;
+	    }
+    }
+}
