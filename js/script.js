@@ -319,8 +319,8 @@ function Resize() {
 }
 
 function mapfunction() {
-	var fenway = [37.7940035,-122.2463581]; //Change a map coordinate here!
-	var markerPosition = [37.7940035,-122.2463581]; //Change a map marker here!
+	var fenway = [47.6714626,-122.3790696]; //Change a map coordinate here!
+	var markerPosition = [47.7250366,-122.3436054]; //Change a map marker here!
 	$('#map').gmap3({
 			center: fenway,
 			zoom: 12,
