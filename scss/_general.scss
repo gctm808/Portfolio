@@ -238,7 +238,7 @@ button.mfp-close, button.mfp-arrow, a.zoom {
 
 section.page-banner-section {
     padding: 100px;
-    @include retina('../upload/banners/1.jpg', 2, cover, center center no-repeat);
+    @include retina('../upload/banners/about.png', 2, cover, center center no-repeat);
     .border-line-box {
         height: 300px;
         border: 2px solid $primary-color;
