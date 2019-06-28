@@ -326,7 +326,6 @@ function mapfunction() {
 			scrollwheel: false,
 			mapTypeId : google.maps.MapTypeId.ROADMAP
 		})
-	});
 }
 	
 /* ---------------------------------------------------------------------- */
