@@ -510,6 +510,7 @@ section.page-banner-section p {
   font-family: "Merriweather", serif;
   line-height: 30px;
   margin-bottom: 0;
+  text-shadow: 2px 2px gray;
 }
 
 section.page-banner-section.portfolio-ban {
